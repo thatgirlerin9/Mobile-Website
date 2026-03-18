@@ -6,7 +6,7 @@ background: #40B4ED;
 
 /* NAV */
 
-.nav{
+/* .nav{
 display: inline-flex;
 padding: 4px;
 justify-content: center;
@@ -14,9 +14,66 @@ align-items: center;
 gap: 180px;
 
 background: rgba(66, 65, 65, 0.42);
+} */
+
+/* fonts */
+h1, .h1{
+font-family: 'Stavok Grotesque', sans-serif;
+font-size: 59px!important;
+font-weight: 300;
+color:white!important;
 }
 
+h2, .h2{
+font-family: 'Just Another Hand', cursive;
+font-size: 18px;
+font-weight: 600;
+color:black
+}
+h3, .h3{
+font-family: 'Just Another Hand', cursive;
+font-size: 18px;
+font-weight: 600;
+color:black
+}
 
+p{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+/* Colors */
+
+.primary-color {
+    color: #4AA3D1; /* light blue */
+}
+.secondary-color {
+    color: #F4FFBF; /* light yellow */
+}
+
+.accent-color {
+    color: #034572; /* dark blue */
+}
+
+.theme-btn{
+background: #F4FFBF;
+border: 1px solid #bac876;
+border-radius:64px;
+}
+
+.hero-bg{
+background:  url('images/matt-nelson-aI3EBLvcyu4-unsplash.jpeg'), lightgray;
+background-size: cover;
+background-position: center;    
+
+}
+
+.hero-content-overlay{
+    background: linear-gradient(rgb(66 65 65 / 42%), rgb(66 65 65 / 42%));
+    
+}
 .logo{
 width: 16px;
 height: 16px;
@@ -40,9 +97,13 @@ height: 16px;
 
 /* HERO */
 
-.hero{
+/* .hero{
 width: 402px;
 height: 268px;
+} */
+
+.hero{
+    min-height: 60vh;
 }
 
 .hero-img{
@@ -61,10 +122,10 @@ color:white;
 width:70%;
 }
 
-.hero h1{
+/* .hero h1{
 font-size:28px;
 font-weight:600;
-}
+} */
 
 .hero-btn{
 background:#F4FFBF;

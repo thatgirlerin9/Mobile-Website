@@ -1,207 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Quest For Paws</title>
+  <title>Quest For Paws</title>
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
-<link href="https://erinsdesignstudio.com/mobile-website" rel="stylesheet">
+  <link href="https://erinsdesignstudio.com/mobile-website" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-<!-- NAVIGATION -->
+  <!-- NAVIGATION -->
 
-<header class="nav">
+  <!-- <header class="nav">
 
-<img src="images/Logo.svg" alt="Quest for paws logo" class="logo">
+    <img src="images/Logo.svg" alt="Quest for paws logo" class="logo">
 
-<nav class="menu">
-<a href="#">About Us</a>
-<a href="#">Volunteer</a>
-<a href="#">Contact Us</a>
+    <nav class="menu">
+      <a href="#">About Us</a>
+      <a href="#">Volunteer</a>
+      <a href="#">Contact Us</a>
+    </nav>
+
+  </header> -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+
+   <a class="navbar-brand" href="#">
+      <img src="images/Logo.svg" alt="Quest for paws logo" class="logo">
+</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pricing">Pricing</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
+  <!-- HERO -->
 
-</header>
+  <section class="container-fluid hero hero-bg">
 
+    <!-- <img src="images/matt-nelson-aI3EBLvcyu4-unsplash.jpeg" class="hero-img" alt="Logo"> -->
 
-<!-- HERO -->
+    <!-- <div class="hero-text hero-content-overlay p-5"> -->
+    <div class=" hero-content-overlay p-5 d-flex justify-content-center align-items-center">
+      <div>
+        <div class="col-12 col-md-8">
+          <h1>
+            Give homeless pets the <span class="secondary-color">second chance</span> they deserve.
+          </h1>
+        </div>
+        <p class="text-white">
+          Volunteer, foster, or give today to change a pet's life forever.
+        </p>
+  
+        <button class="hero-btn">Volunteer Today</button>
+      </div>
 
-<section class="hero">
+    </div>
 
-<img src="images/matt-nelson-aI3EBLvcyu4-unsplash.jpeg" class="hero-img" alt="Logo">
+  </section>
 
-<div class="hero-text">
 
-<h1>
-Give homeless pets the second chance they deserve.
-</h1>
+  <!-- MISSION SECTION -->
 
-<p>
-Volunteer, foster, or give today to change a pet's life forever.
-</p>
+  <section class="mission">
 
-<button class="hero-btn">Volunteer Today</button>
+    <div class="mission-text">
 
-</div>
+      <h2 class="mission-heading">
+        <span class="line-one">Pets transform our lives.</span><br>
+        <span class="line-two">We’re on a mission to transform theirs.</span>
+      </h2>
 
-</section>
+      <p>
+        Quest for Paws Animal Rescue and Sanctuary is a nonprofit organization dedicated to rescuing, fostering, and
+        rehoming abandoned animals.
+      </p>
 
+    </div>
 
-<!-- MISSION SECTION -->
+    <div class="mission-image">
 
-<section class="mission">
+      <img src="images/Woman-Dog.jpeg">
 
-<div class="mission-text">
+    </div>
 
-<h2 class="mission-heading">
-  <span class="line-one">Pets transform our lives.</span><br>
-  <span class="line-two">We’re on a mission to transform theirs.</span>
-</h2>
+  </section>
 
-<p>
-Quest for Paws Animal Rescue and Sanctuary is a nonprofit organization dedicated to rescuing, fostering, and rehoming abandoned animals.
-</p>
 
-</div>
+  <!-- HOW WE HELP -->
 
-<div class="mission-image">
+  <section class="help">
 
-<img src="images/Woman-Dog.jpeg">
+    <h2>How We Help</h2>
+    <p class="subtitle">Three ways your support changes pets’ lives</p>
 
-</div>
+    <div class="help-grid">
 
-</section>
+      <div class="help-card">
+        <h3>Animal Rescue</h3>
+        <p>We go on quests to rescue and recover any dog or cat roaming our streets.</p>
+      </div>
 
+      <div class="help-card">
+        <h3>Veterinary Services</h3>
+        <p>We provide free veterinary treatment to strays, rescues, and pets.</p>
+      </div>
 
-<!-- HOW WE HELP -->
+      <div class="help-card">
+        <h3>Fostering and Adoption</h3>
+        <p>We help our rescues find their temporary and forever homes.</p>
+      </div>
 
-<section class="help">
+    </div>
 
-<h2>How We Help</h2>
-<p class="subtitle">Three ways your support changes pets’ lives</p>
+  </section>
 
-<div class="help-grid">
 
-<div class="help-card">
-<h3>Animal Rescue</h3>
-<p>We go on quests to rescue and recover any dog or cat roaming our streets.</p>
-</div>
+  <!-- HELP SECTION -->
 
-<div class="help-card">
-<h3>Veterinary Services</h3>
-<p>We provide free veterinary treatment to strays, rescues, and pets.</p>
-</div>
+  <section class="support">
 
-<div class="help-card">
-<h3>Fostering and Adoption</h3>
-<p>We help our rescues find their temporary and forever homes.</p>
-</div>
+    <div class="support-img">
+      <img src="images/Blue-Dog.jpg">
+    </div>
 
-</div>
+    <div class="support-text">
 
-</section>
+      <h2>How You Can Help?</h2>
 
+      <p>
+        There are countless ways you can help us in our quest for paws.
+        You can make a donation, join our fundraiser events, or volunteer.
+      </p>
 
-<!-- HELP SECTION -->
+      <ul>
 
-<section class="support">
+        <li>Donate</li>
+        <li>Join</li>
+        <li>Volunteer</li>
 
-<div class="support-img">
-<img src="images/Blue-Dog.jpg">
-</div>
+      </ul>
 
-<div class="support-text">
+    </div>
 
-<h2>How You Can Help?</h2>
+  </section>
 
-<p>
-There are countless ways you can help us in our quest for paws.
-You can make a donation, join our fundraiser events, or volunteer.
-</p>
 
-<ul>
+  <!-- TEAM -->
 
-<li>Donate</li>
-<li>Join</li>
-<li>Volunteer</li>
+  <section class="team">
 
-</ul>
+    <h2 class="team-title">Meet Our Intrepid Rescue Leaders</h2>
 
-</div>
+    <div class="team-grid">
 
-</section>
+      <div class="team-card">
+        <img src="images/Jackie-Image.svg">
+        <p>Jackie Davis</p>
+      </div>
 
+      <div class="team-card">
+        <img src="images/Elias-Image.svg">
+        <p>Elias Martinez</p>
+      </div>
 
-<!-- TEAM -->
+      <div class="team-card">
+        <img src="images/Freya-Image.svg">
+        <p>Freya Raynes</p>
+      </div>
 
-<section class="team">
+      <div class="team-card">
+        <img src="images/Alyssa-Image.svg">
+        <p>Alyssa Waters</p>
+      </div>
 
-<h2 class="team-title">Meet Our Intrepid Rescue Leaders</h2>
+      <div class="team-card">
+        <img src="images/Jennie-Image.svg">
+        <p>Jennie Jenkins</p>
+      </div>
 
-<div class="team-grid">
+    </div>
 
-<div class="team-card">
-<img src="images/Jackie-Image.svg">
-<p>Jackie Davis</p>
-</div>
+  </section>
 
-<div class="team-card">
-<img src="images/Elias-Image.svg">
-<p>Elias Martinez</p>
-</div>
 
-<div class="team-card">
-<img src="images/Freya-Image.svg">
-<p>Freya Raynes</p>
-</div>
+  <!-- CONTACT -->
 
-<div class="team-card">
-<img src="images/Alyssa-Image.svg">
-<p>Alyssa Waters</p>
-</div>
+  <section class="contact">
 
-<div class="team-card">
-<img src="images/Jennie-Image.svg">
-<p>Jennie Jenkins</p>
-</div>
+    <div class="contact-form">
 
-</div>
+      <h2>Contact Form</h2>
 
-</section>
+      <input type="text" placeholder="Name">
 
+      <input type="email" placeholder="Email Address">
 
-<!-- CONTACT -->
+      <textarea placeholder="Leave a Message"></textarea>
 
-<section class="contact">
+      <button class="submit-btn">Submit</button>
 
-<div class="contact-form">
+    </div>
 
-<h2>Contact Form</h2>
+    <div class="contact-img">
 
-<input type="text" placeholder="Name">
+      <img src="images/Weiner-Dog.jpeg">
 
-<input type="email" placeholder="Email Address">
+    </div>
 
-<textarea placeholder="Leave a Message"></textarea>
+  </section>
 
-<button class="submit-btn">Submit</button>
-
-</div>
-
-<div class="contact-img">
-
-<img src="images/Weiner-Dog.jpeg">
-
-</div>
-
-</section>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
